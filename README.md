@@ -1,2 +1,2 @@
 # Python_Game
-This is game create by python.
+This is games create by python.
