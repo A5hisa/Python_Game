@@ -1,4 +1,5 @@
 # hangma_logo from : # https://ascii.co.uk/
+# hangman_pic from : https://github.com/kayyali18
 
 hagman_logo = '''
  _                                             
@@ -10,8 +11,6 @@ hagman_logo = '''
                     __/ |                      
                    |___/  
 '''
-
-# hangman_pic from : https://github.com/kayyali18
 
 hangman_pic = ['''
   +---+

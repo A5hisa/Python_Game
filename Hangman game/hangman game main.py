@@ -4,20 +4,18 @@
 # https://www.askpython.com/python/python-import-statement
 
 import random
-
-import hangman_picture # hangman_logo // hangman_pic
-
+import hangman_picture 
 import dictionary
 
 print(hangman_picture.hagman_logo) 
 
-lives = 6 # จำนวนการทาย
+lives = 6 
 game_over = False
-correct_list = [] #เก็บตัวอักษรที่ถูกต้อง
+correct_list = [] 
 
-word_chose = random.choice(dictionary.word_list) # สุ่มคำศัพท์จาก list
+word_chose = random.choice(dictionary.word_list) 
 
-# print จำนวนตัวอักษรจากคำศัพท์ที่ random มา
+
 char_lenght = 0
 while char_lenght < len(word_chose) :
     char_lenght += 1
@@ -41,7 +39,7 @@ while not game_over:
         else :
             display += "_"
 
-    if guess not in correct_list : #เช็คตัวอักษรที่ถูกต้อง
+    if guess not in correct_list : #
         lives -= 1
         print(f"You guessed {guess}, that's not in the word. You lose a life")
         if lives == 0 :
