@@ -2,8 +2,6 @@
 # https://developers.google.com/edu/python/lists#for-and-in
 # https://developers.google.com/edu/python/lists#range
 # https://www.askpython.com/python/python-import-statement
-# https://www.hangmanwords.com/words
-# https://github.com/kayyali18
 
 import random
 

@@ -9,6 +9,7 @@ hagman_logo = '''
                    |___/  
 '''
 
+# hangman_pic from : https://github.com/kayyali18
 
 hangman_pic = ['''
   +---+
