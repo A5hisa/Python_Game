@@ -1,3 +1,5 @@
+# hangma_logo from : # https://ascii.co.uk/
+
 hagman_logo = '''
  _                                             
 | |                                            
