@@ -3,6 +3,7 @@ Collection of basic games created by python.
 
 ## List of games (10/01/2024)
 - Tic-tac-toe game
+- Hangman game
 
 ## Feedback
 
