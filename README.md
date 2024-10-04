@@ -1,4 +1,4 @@
-# Python_Game
+# Python Game
 Collection of basic games created by python.
 
 ## List of games (10/04/2024)
