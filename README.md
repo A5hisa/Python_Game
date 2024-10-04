@@ -1,7 +1,7 @@
 # Python_Game
 Collection of basic games created by python.
 
-## List of games (10/01/2024)
+## List of games (10/04/2024)
 - Tic-Tac-Toe
 - Hangman 
 - Rock Paper Scissors 
