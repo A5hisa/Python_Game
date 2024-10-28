@@ -31,7 +31,7 @@ def play():
         print(art.vs)
         print(f"Compare B: {B['name']}, a {B['description']}, from {B['country']} .")
 
-        # get user guess and check 
+        # get guess from user and check 
         guess = input("Who has more followers? Type 'A' or 'B' : ").upper()
         
         # check from follower_count in A and B dictionary
