@@ -8,6 +8,7 @@ Collection of basic games created by python. This project is for beginner who wa
 - Rock Paper Scissors 
 - Number Guessing 
 - Blackjack
+- Higher Lower Game
 
 ## Feedback
 
