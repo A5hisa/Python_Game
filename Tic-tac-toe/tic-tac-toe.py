@@ -18,7 +18,7 @@ DEFAULT_PLAYERS = (
     Player(label="O", color="green"),
 )
 
-class TicTacToeGame: #backend
+class TicTacToeGame: 
     def __init__(self, players=DEFAULT_PLAYERS, board_size=BOARD_SIZE):
         self._players = cycle(players)
         self.board_size = board_size
@@ -86,7 +86,7 @@ class TicTacToeGame: #backend
         self._has_winner = False
         self.winner_combo = []
 
-class TicTacToeBoard(tk.Tk): #frontend
+class TicTacToeBoard(tk.Tk): 
     def __init__(self, game):
         super().__init__()
         self.title("Tic-Tac-Toe Game")
