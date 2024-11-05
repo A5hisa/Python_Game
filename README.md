@@ -6,7 +6,7 @@ Collection of basic games created by python. This project is for beginner who wa
 - Tic-Tac-Toe
 - Hangman 
 - Rock Paper Scissors 
-- Number Guessing 
+- Number Guessing (2 versions)
 - Blackjack
 - Higher Lower Game
 
