@@ -44,5 +44,4 @@ def game() :
                 print("You've run out of guesses, you lose.")
                 break
 
-print(Number_random)
 game()
