@@ -1,5 +1,5 @@
 # Python Game
-Collection of basic games created by python. This project is for beginner who want to learn python. I hope it is useful.
+A collection of basic games created while I was learning Python.
 
 
 ## List of games (11/25/2024)
