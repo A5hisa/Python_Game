@@ -1,15 +1,15 @@
 import random
-low = 1
-max = 1000
+num_low = 1
+num_max = 1000
 max_attempts = 10
 
-secret_num = random.randint(low, max)
+secret_num = random.randint(num_low, num_max)
 
 def get_guess():
     while True:
         try:
             guess = int(input("Guess number 1 to 1000 : "))
-            if low <= guess <= max:
+            if num_low <= guess <= max:
                 return guess
             else:
                 print("\033[31m","Invalid input.","\033[0m")
@@ -47,3 +47,4 @@ def play():
 if __name__ == "__main__":
     print("Number Guessing Game!")
     play()
+    
