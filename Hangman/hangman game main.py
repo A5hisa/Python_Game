@@ -39,7 +39,7 @@ while not game_over:
         else :
             display += "_"
 
-    if guess not in correct_list : #
+    if guess not in correct_list : 
         lives -= 1
         print(f"You guessed {guess}, that's not in the word. You lose a life")
         if lives == 0 :
