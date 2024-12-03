@@ -3,8 +3,7 @@ import art
 import game_data
 
 def game_random():
-    global A
-    global B
+    global A, B
     A = random.choice(game_data.data)
     B = random.choice(game_data.data)
 
