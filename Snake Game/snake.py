@@ -9,11 +9,10 @@ RIGHT = 0
 class Snake:
 
     def __init__(self):
-        self.body_snake = [] #ลำตัวงู
-        self.create_snake() #สร้างงู
-        self.head = self.body_snake[0] #หัวงู
+        self.body_snake = [] 
+        self.create_snake() 
+        self.head = self.body_snake[0] 
         
-    # สร้างตัวงู 3 ช่วง
     def create_snake(self):
         for position in START_POS:
             self.add_snake(position)
@@ -25,11 +24,9 @@ class Snake:
         snake.goto(pos)
         self.body_snake.append(snake)
 
-    # ต่อตัวงูที่ท้ายตัว
     def extend(self):
         self.add_snake(self.body_snake[-1].position())
 
-    # ขยับตัวงูทั้งหมดให้ตามกัน
     def move(self):
         for body in range(len(self.body_snake) - 1, 0, -1):
             x = self.body_snake[body - 1].xcor()
