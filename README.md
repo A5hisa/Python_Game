@@ -2,7 +2,7 @@
 A collection of basic games created while I was learning Python.
 
 
-## List of games (11/25/2024)
+## List of games (12/04/2024)
 - Tic-Tac-Toe
 - Hangman 
 - Rock Paper Scissors 
@@ -10,6 +10,7 @@ A collection of basic games created while I was learning Python.
 - Blackjack
 - Higher Lower Game
 - Turtle Race
+- Snake Game
 
 ## Feedback
 
