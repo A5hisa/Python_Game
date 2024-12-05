@@ -1,8 +1,3 @@
-# Hangman
-# https://developers.google.com/edu/python/lists#for-and-in
-# https://developers.google.com/edu/python/lists#range
-# https://www.askpython.com/python/python-import-statement
-
 import random
 import hangman_picture 
 import dictionary

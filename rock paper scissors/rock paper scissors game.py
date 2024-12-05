@@ -31,14 +31,8 @@ if player >= 3 or player < 0 :
     print("Invalid number, You lose!")
 else :
     print(f"You chose\n {option[player]}")
-
     computer = random.randint(0, 2)
     print(f"Computer chose\n {option[computer]}")
-
-# 0 = rock
-# 1 = paper
-# 2 = scissors
-
     if player == computer :
         print("Draw!")
     elif player == 0 and computer == 2 :
