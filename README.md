@@ -11,6 +11,7 @@ A collection of basic games created while I was learning Python.
 - Higher Lower Game
 - Turtle Race
 - Snake Game
+- Pong Game
 
 ## Feedback
 
