@@ -2,7 +2,7 @@
 A collection of basic games created while I was learning Python.
 
 
-## List of games (12/05/2024)
+## List of games (12/10/2024)
 - Tic-Tac-Toe
 - Hangman 
 - Rock Paper Scissors 
