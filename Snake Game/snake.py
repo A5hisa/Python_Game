@@ -27,6 +27,14 @@ class Snake:
     def extend(self):
         self.add_snake(self.body_snake[-1].position())
 
+    def reset(self):
+        for body in self.body_snake:
+            body.goto(1000,1000)
+        self.body_snake.clear()
+        self.create_snake()
+        self.head = self.body_snake[0]
+
+
     def move(self):
         for body in range(len(self.body_snake) - 1, 0, -1):
             x = self.body_snake[body - 1].xcor()
