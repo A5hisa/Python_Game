@@ -43,8 +43,6 @@ def play():
     if not won:
         print("Sorry, you ran out of attempts! The secret number is",secret_num)
 
-
-if __name__ == "__main__":
-    print("Number Guessing Game!")
-    play()
+print("Number Guessing Game!")
+play()
     
