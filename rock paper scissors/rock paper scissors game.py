@@ -27,19 +27,19 @@ option = [rock, paper, scissors]
 
 player = int(input("What do you choose? Type 0 for rock, 1 for paper or 2 for scissors.\n"))
 
-if player >= 3 or player < 0 :
+if player >= 3 or player < 0:
     print("Invalid number, You lose!")
-else :
+else:
     print(f"You chose\n {option[player]}")
     computer = random.randint(0, 2)
     print(f"Computer chose\n {option[computer]}")
-    if player == computer :
+    if player == computer:
         print("Draw!")
-    elif player == 0 and computer == 2 :
+    elif player == 0 and computer == 2:
         print("You win!")
-    elif computer == 0 and player == 2 :
+    elif computer == 0 and player == 2:
         print("You lose!")
-    elif player > computer :
+    elif player > computer:
         print("You win!")
-    elif computer > player :
+    elif computer > player:
         print("You lose!")
