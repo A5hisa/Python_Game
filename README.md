@@ -1,8 +1,7 @@
 # Python Game
 A collection of basic games created while I was learning Python.
 
-
-## List of games (12/13/2024)
+## List of games (14/01/2025)
 - Tic-Tac-Toe
 - Hangman 
 - Rock Paper Scissors 
@@ -13,6 +12,21 @@ A collection of basic games created while I was learning Python.
 - Snake Game
 - Pong Game
 - Turtle crossing the road Game
+- U.S. States Game
+
+## Installation
+
+1. Clone repositories
+
+```shell
+    $ git clone https://github.com/A5hisa/Python_Game
+```
+
+2. Install the required
+
+```shell
+    $ pip install -r requirements.txt
+```
 
 ## Feedback
 

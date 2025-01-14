@@ -21,7 +21,7 @@ correct = 0
 correct_list = []
 
 while True:
-    answer = screen.textinput(title=title, prompt="What's another states's name?")
+    answer = screen.textinput(title=title, prompt="Guess the state's name?")
 
     if answer == None:
         break
